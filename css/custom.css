@@ -46,7 +46,14 @@ body {
 .image {
 	display: block;
 	width: 80%;
-	margin: 0 auto;
+	margin: 20px auto;
+}
+
+/* make sure that anchors jump to 50px below the top of the page,
+ * to prevent the navbar from overlapping */
+#wrap h1 {
+	padding-top: 50px;
+	margin-top: -50px;
 }
 
 /* undo weird padding from Bootstrap */
