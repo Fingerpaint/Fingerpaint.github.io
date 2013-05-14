@@ -39,6 +39,16 @@ body {
  * Custom styles for the page.
  *
  */
+h1 {
+	font-size: 20px;
+}
+
+span.date {
+	display: inline-block;
+	font-weight: bold;
+	width: 100px;
+}
+
 #footer .credit {
 	margin: 20px 0;
 }
@@ -67,4 +77,13 @@ body {
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+}
+
+/* for multiple ".brand" links in navbar */
+.navbar .brand {
+	padding: 10px 0 10px 20px;
+}
+
+.navbar .nav {
+	margin: 0 10px 0 20px;
 }
